@@ -12,15 +12,16 @@ body{
 .machine-body {
     position: absolute;
     background-position: center;
-    top:20%;
-    left:10%;
-    max-width: 80%;
+    top:20vh;
+    left:40%;
+    max-width: 300px;
     width: 100%;
     height: 70vh;
     border-radius: 10px 10px 50px 10px / 10px 10px 50px 10px ;
     border: 2px solid rgb(168, 168, 168);
     background-color: rgb(191, 191, 191);
     touch-action: none;
+    margin: 0px auto;
     z-index: 10;
 }
 
@@ -400,9 +401,8 @@ SELECT, START BUTTON SIDE
     position: absolute;
     background-position: center;
     top:-15%;
-    /* top: 50%; */
     left:10%;
-    max-width: 40%;
+    max-width: 120px;
     width: 100%;
     height: 20vh;
     border-radius: 10px;
@@ -412,8 +412,8 @@ SELECT, START BUTTON SIDE
 }
 
 .gamepack.inserted {
-    top:15%;
-    left:40%;
+    top:15vh;
+    left:47%;
 }
 
 .gamepack.selected {
@@ -512,4 +512,11 @@ SELECT, START BUTTON SIDE
     height: 60%;
     border-radius: 0px 0px 20px 0px / 0px 0px 20px 0px ;
     background-color: rgb(180, 86, 149);
+}
+
+@media screen and (max-width: 400px) {
+    .machine-body {
+        position: absolute;
+        left: 10%;
+    }
 }
