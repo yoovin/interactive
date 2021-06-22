@@ -3,7 +3,7 @@ import SnakeGame from "./games/snake.js"
 
 /* 
 Todos
-게임끄기 구현
+테트리스, 비행기게임 등 다른 게임 구현
 
 */
 
