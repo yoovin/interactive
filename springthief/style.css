@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
-@media screen and (max-width:599){
-    .lyrics{
-        font-size: 100px;
-    }
-}
-
 .content-warp {
     width:100%;
     height: auto;
