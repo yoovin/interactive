@@ -6,6 +6,7 @@ body{
     height:100vh;
     user-select: none;
     -webkit-user-select: none;
+    background-color: rgb(240, 255, 244);
     
 }
 
