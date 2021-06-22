@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./src/gameboy-icon.png"/>
+    <title>Yoovin Boy</title>
+</head>
+<body>
+    <div class="machine-body">
+        <span class="machine-onoff-button"></span>
+        <span class="machine-onoff-text">OFF ON</span>
+        <span class="machine-name">YOOVIN BOY</span>
+        <span class="machine-notice">CANVAS WITH JS</span>
+        <div class="screen-side">
+            <span class="line red"></span>
+            <span class="line blue"></span>
+            <span class="light"></span>
+            <div class="screen" style="font-family: 'Press Start 2P'">
+                <canvas class="canvas" width="400", height="400"></canvas>
+            </div>
+        </div>
+        
+        <div class="rudder-side">
+            <div class="rudder top"></div>
+            <div class="rudder left"></div>
+            <div class="rudder right"></div>
+            <div class="rudder bottom"></div>
+            <div class="rudder-center"></div>
+        </div>
+        <div class="ab-side">
+                <div class="button b"></div>
+                <div class="button a"></div>
+                <span class="b-text">B</span>
+                <span class="a-text">A</span>
+        </div>
+        <div class="other-side">
+            <div class="button select"></div>
+            <span class="select-text">SELECT</span>
+            <div class="button start"></div>
+            <span class="start-text">START</span>
+        </div>
+        <div class="machine-line">
+            <span class="top-line left"></span>
+            <span class="top-line right"></span>
+            <span class="top-line center"></span>
+
+            <div class="spickers">
+                <span class="spicker"></span>
+                <span class="spicker"></span>
+                <span class="spicker"></span>
+                <span class="spicker"></span>
+                <span class="spicker"></span>
+                <span class="spicker"></span>
+            </div>
+            <div class="spicker-shade"></div>
+        </div>
+    </div>
+    <div class="gamepack" data-game="snake">
+        <!-- <span class="pack-top-right"></span> -->
+        <div class="top-lines">
+            <span class="top-label">Snake</span>
+            <span class="top-line"></span>
+            <span class="top-line"></span>
+            <span class="top-line"></span>
+            <span class="top-line"></span>
+            <span class="top-line"></span>
+        </div>
+        <div class="gamepack-img-side">
+            <div class="gamepack-img"></div>
+        </div>
+        <span class="pack-right"></span>
+        <span class="pack-left"></span>
+        <span class="pack-bottom"></span>
+    </div>
+</body>
+<script type="module" src="main.js"></script>
+</html>
