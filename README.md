@@ -1,7 +1,7 @@
 # Interactive Webs
 Practice interactive webs
 
-## [Spring thief(春泥棒)](./springthief)
+## [Spring thief(春泥棒)](https://yoovin.github.io/interactive/springthief)
 1. Source 
     - https://frogapples.tumblr.com/post/164168120244/no-wonder-i
     - https://www.youtube.com/watch?v=Sw1Flgub9s8&ab_channel=%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB%2Fn-bunaOfficial
@@ -12,7 +12,7 @@ Practice interactive webs
     - Play시 레코드판이 돌아가는 Animation
     - Typing Animation 구현
 
-## [Yoovin Boy](./yoovinboy)
+## [Yoovin Boy](https://yoovin.github.io/interactive/yoovinboy)
 1. Source 
     - Nintendo Gameboy
 
