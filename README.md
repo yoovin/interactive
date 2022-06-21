@@ -26,3 +26,12 @@ Practice interactive webs
         - Snake Game
         - Tetris (예정)
         - Shooting Game (예정)  
+
+## [Macbook Air](https://yoovin.github.io/interactive/macbookair)
+1. Source 
+    - Nintendo Gameboy
+
+1. 구현
+    - css를 이용한 Macbook air 디자인
+    - 키 입력시 키보드 점등효과
+    - 키 입력시 모니터에 글자 나오게끔 되어있음
