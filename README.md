@@ -29,7 +29,7 @@ Practice interactive webs
 
 ## [Macbook Air](https://yoovin.github.io/interactive/macbookair)
 1. Source 
-    - Nintendo Gameboy
+    - Apple Macbook Air
 
 1. 구현
     - css를 이용한 Macbook air 디자인
